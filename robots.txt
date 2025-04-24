@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /catalogsearch/advanced/
+Disallow: /track-form
+Disallow: /customer/
+Disallow: /checkout/
+Disallow: /campaign/
+Disallow: /popup/
+Disallow: /catalog/
+Disallow: /nmscatalog/
+Disallow: /notification/customer/name
+Disallow: /page_cache/block/esi/blocks
+Disallow: /pincodecheck/index/pincodeusingip
+Disallow: /productquestion/ajax/index/prod_id/
+Disallow: /catalogsearch/result/
+Disallow: /search
+Disallow: /*?
+
+User-agent: Googlebot
+Allow: /catalog/productdetails/
+
+Sitemap: https://www.jiomart.com/sitemap.xml
